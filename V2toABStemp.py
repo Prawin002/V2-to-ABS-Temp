@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 from io import BytesIO
 import openpyxl
+print("✅ openpyxl imported successfully")
 
 st.set_page_config(page_title="ERP Column Mapper", layout="centered")
 st.title("ERP Column Mapper and Transfer Tool")
